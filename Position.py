@@ -29,5 +29,10 @@ class Position:
         else:
             self.__x = x
             self.__y = y
+
+    def get_pos(self):
+        return (self.__x, self.__y)
+
+
     def show(self):
         print("x =", self.get_x(), "\ny =", self.get_y(), '\n')
